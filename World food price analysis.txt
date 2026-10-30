@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Food Prices Analysis Using Python</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292f;
+            background-color: #f6f8fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        }
+        h1 {
+            color: #0969da;
+            border-bottom: 2px solid #eaecef;
+            padding-bottom: 12px;
+            margin-top: 0;
+        }
+        h2 {
+            color: #1f2328;
+            border-bottom: 1px solid #d0d7de;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 15px;
+            color: #333;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        code {
+            background-color: #f6f8fa;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #cf222e;
+        }
+        strong {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>World Food Prices Analysis Using Python Libraries</h1>
+
+    <h2>1. Project Overview</h2>
+    <p>
+        The World Food Prices Analysis is an exploratory data analysis (EDA) and data science project developed using Python in Google Colab. The project analyzes historical and current global food price trends sourced from the World Bank Food Price Dataset. Using Python libraries such as Pandas, the project inspects, cleans, and evaluates food price metrics across multiple countries, dates, and market locations. It helps track food inflation dynamics and price movements over time to provide clear macroeconomic insights.
+    </p>
+
+    <h2>2. Project Objectives</h2>
+    <ul>
+        <li>To load, clean, and explore global food price data from the World Bank dataset.</li>
+        <li>To inspect data dimensions, schema types, missing values, and statistical summaries using Pandas.</li>
+        <li>To track trends in the target food price indicator (<code>Close</code>) across dates and geographical locations.</li>
+        <li>To analyze food price inflation and its variations across different country markets.</li>
+        <li>To examine currency distributions and their correlation with local commodity prices.</li>
+        <li>To build a reproducible data workflow suitable for further visualization and modeling in Python.</li>
+    </ul>
+
+    <h2>3. Tools & Technologies Used</h2>
+    <ul>
+        <li><strong>Python:</strong> Primary programming language for data analysis.</li>
+        <li><strong>Google Colab:</strong> Cloud-based interactive Jupyter notebook environment for development.</li>
+        <li><strong>Pandas:</strong> Data wrangling, dataframe inspection (<code>head()</code>, <code>shape</code>, <code>info()</code>, <code>describe()</code>), and manipulation.</li>
+        <li><strong>Matplotlib & Seaborn:</strong> Data visualization and statistical plotting.</li>
+        <li><strong>CSV Dataset:</strong> Cleaned World Bank food price data file (<code>world_food_prices_cleaned.csv</code>).</li>
+    </ul>
+
+    <h2>4. Key Attributes & Features</h2>
+    <ul>
+        <li><strong>Country & ISO3:</strong> Identifies countries and standard ISO codes where food prices are recorded.</li>
+        <li><strong>Location:</strong> Specific regional markets and points of measurement
